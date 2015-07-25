@@ -8,15 +8,15 @@ var settings = {
 			"July", "August", "September", "October", "November", "December"]
 	},
 	weather: {
-		city: "Budapest",
-		countryCode: "HU",
+		city: "Orlando, US",
+		countryCode: "USA",
 		unitType: "metric", // "metric" or "imperial"
 		forecastDays: 5, // max 5
 		refreshInterval: 5 // measured in minutes
 	},
 	feed: {
-		url: "http://www.nasa.gov/rss/dyn/breaking_news.rss",
-		title: "NASA",
+		url: http://feeds.foxnews.com/foxnews/latest
+		title: "Fox News",
 		entryCount: 30,
 		timeout: 10
 	}
